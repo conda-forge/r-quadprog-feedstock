@@ -14,14 +14,16 @@ Summary: This package contains routines and documentation for solving quadratic 
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/r-quadprog-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/r-quadprog-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/r-quadprog-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/r-quadprog-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/r-quadprog-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/r-quadprog-feedstock/branch/master)
+[![Linux](https://img.shields.io/circleci/project/github/conda-forge/r-quadprog-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/r-quadprog-feedstock)
+[![OSX](https://img.shields.io/travis/conda-forge/r-quadprog-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/r-quadprog-feedstock)
+[![Windows](https://img.shields.io/appveyor/ci/conda-forge/r-quadprog-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/conda-forge/r-quadprog-feedstock/branch/master)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/r-quadprog/badges/version.svg)](https://anaconda.org/conda-forge/r-quadprog)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/r-quadprog/badges/downloads.svg)](https://anaconda.org/conda-forge/r-quadprog)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-r--quadprog-green.svg)](https://anaconda.org/conda-forge/r-quadprog) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/r-quadprog.svg)](https://anaconda.org/conda-forge/r-quadprog) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/r-quadprog.svg)](https://anaconda.org/conda-forge/r-quadprog) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/r-quadprog.svg)](https://anaconda.org/conda-forge/r-quadprog) |
 
 Installing r-quadprog
 =====================
@@ -66,6 +68,7 @@ To manage the continuous integration and simplify feedstock maintenance
 Using the ``conda-forge.yml`` within this repository, it is possible to re-render all of
 this feedstock's supporting files (e.g. the CI configuration files) with ``conda smithy rerender``.
 
+For more information please check the [conda-forge documentation](https://conda-forge.org/docs/).
 
 Terminology
 ===========
