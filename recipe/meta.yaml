@@ -1,4 +1,4 @@
-{% set version = '1.5-7' %}
+{% set version = "1.5-8" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,11 +10,11 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/quadprog_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/quadprog/quadprog_{{ version }}.tar.gz
-  sha256: 1af41e57df6f2d08ee8b72a1a5ada137beadb36c7ec9ab9bdb7c05226e8ae76d
+  sha256: 22128dd6b08d3516c44ff89276719ad4fe46b36b23fdd585274fa3a93e7a49cd
 
 build:
   merge_build_host: True  # [win]
-  number: 2
+  number: 0
   rpaths:
     - lib/R/lib/
     - lib/
